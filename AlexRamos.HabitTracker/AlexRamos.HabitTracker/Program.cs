@@ -11,7 +11,7 @@ class Program
     /// Reference to database.
     /// </summary>
     static string connectionString = @"Data Source=habit-Tracker.db";
-    static bool closeApp = false;
+    static bool closeApp;
 
     static void Main(string[] args)
     {
